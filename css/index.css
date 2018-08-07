@@ -381,7 +381,7 @@ header {
 	
 }
 
-.link {
+.link, .embeddedLink {
 	
 	font-family: 'libre_baskervilleitalic';
 	margin-left: 10px;
@@ -577,9 +577,15 @@ footer {
 		
 	}
 	
-	.summary, .gameCredits li, .download, .link {
+	.summary, .gameCredits li, .download, .link, .embeddedLink {
 		
 		font-size: 100%;
+		
+	}
+	
+	.embeddedLink {
+		
+		display: none;
 		
 	}
 	

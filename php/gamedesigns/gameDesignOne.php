@@ -11,7 +11,7 @@
                     Your browser does not support playing the video!
                 </video>
                 
-                <p><a href="index.php?page=boss_chase&type=pdf&partNum=1&gddType=onePager" class="link">One Pager</a>  <a href="index.php?page=boss_chase&type=pdf&partNum=1&gddType=tenPager" class="link">GDD</a></p>
+                <p><a href="index.php?page=boss_chase&type=pdf&partNum=1&gddType=onePager" class="embeddedLink">One Pager</a>  <a href="index.php?page=boss_chase&type=pdf&partNum=1&gddType=tenPager" class="embeddedLink">GDD</a></p>
                 <p class="download">Full Screen PDF: <a href="pdf/bossChase_onePager.pdf" class="link">One Pager</a> <a href="pdf/bossChase_tenPager.pdf" class="link">Ten Pager</a>
                 <p class="download">Download <a href="pdf/bosschase_onepager.pdf" class="link" download>One Pager</a> <a href="pdf/bosschase_gdd.pdf" class="link" download>Ten Pager</a> <a class="link" href="trailers/bossChase_presentationDemo.mp4" download>Gameplay Video</a>
             </div>

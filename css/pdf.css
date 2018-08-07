@@ -242,7 +242,7 @@ header {
 	
 }
 
-#mainnav, #subnav, #controlpanel, #sidepartsnav {
+#mainnav, #subnav, #controlpanel, #sidepartsnav, #sidecontrolnav {
 	
 	float: left;
 	background-color: #82a182;
@@ -260,7 +260,7 @@ header {
 	
 }
 
-#sidepartsnav {
+#sidepartsnav, #sidecontrolnav {
 	
 	display: none;
 	
@@ -720,7 +720,7 @@ footer {
 	}
 	
 	/* Turn on side menu image */
-	#mainsideimg, #sidemainnav{
+	#partssideimg, #mainsideimg, #sidemainnav, #sidecontrolnav, #sidepartsnav, {
 	
 		display: block;
 		position: fixed;
@@ -735,7 +735,7 @@ footer {
 		display: block;
 	}
 	
-	#partssideimg, #sidesubnav {
+	#partssideimg {
 
 		display: block;
 		position: fixed;
@@ -746,15 +746,22 @@ footer {
 	#sidepartsnav {
 		
 		display: block;
+		width: 0;
 		
 	}
 	
-	#partssideimg img {
+	#partssideimg img, #sidecontrolnav img {
 		
 		display: block;
 		position: fixed;
 		left: 90%;
 		width: 9.5%;
+		
+	}
+	
+	#sidecontrolnav {
+		
+		top: 50%;
 		
 	}
 	

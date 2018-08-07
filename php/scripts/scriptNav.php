@@ -40,7 +40,7 @@
            
             if(document.getElementById("sidecontrolnav"))
             {
-                document.getElementById("sidecontrolnav").style.width = "300px";
+                document.getElementById("sidecontrolnav").style.width = "50%";
                 document.getElementById("sidecontrolnav").style.borderRadius = "50px";
                 document.getElementById("sidecontrolnav").style.borderWidth = "5px";
                 document.getElementById("controlsideimg").style.display = "none";
