@@ -1,18 +1,18 @@
-        <div id="worksarea">
+        <div id="htmlarea" class="dfs">
             <h3 id="pageTitle"><?php echo($_GET["partNum"]) ?></h3>
             <div id="partcontent">
                 <?php
                     $myfile = fopen("text/".$document."/".($_GET["partNum"]).".txt", "r") or die("Unable to open file!");
-                        
+
                     // Output one line until end-of-file
                     while(!feof($myfile)) {
-                          
+
                         echo fgets($myfile)."<br>";
-                        
+
                     }
-                        
+
                     fclose($myfile);
-                ?> 
+                ?>
             </div>
         </div>
 
@@ -30,11 +30,11 @@
                 <li class="partLink"><a href="#" id="link3">Part 3</a></li>
                 <li class="partLink"><a href="#" id="link4">Part 4</a></li>
             </ul>
-
+			<br>
             <ul>
                 <li id="partprev"><a href="#" id="partprevlink" onclick="prevPartList()">Previous Parts</a></li>
                 <li id="partnext"><a href="#" id="partnextlink" onclick="nextPartList()">Next Parts</a></li>
-            </ul><br>
+            </ul><br><br>
             <a href="#top" id="topLink">Back to Top</a>
         </div>
 
@@ -47,7 +47,7 @@
             <div id="sidestorytag">
                 <h2><?php echo "\"".$documentTag."\""; ?></h2>
             </div>
-            
+
             <ul id="partsList">
                 <li class="partLink"><a href="#" id="sidelink1">Part 1</a></li>
                 <li class="partLink"><a href="#" id="sidelink2">Part 2</a></li>

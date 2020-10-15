@@ -1,4 +1,4 @@
-        <div id="worksarea">
+        <div id="pdfarea" class="dfs">
 
             <img id="previous" alt="Previous Page" src="img/UI/prevpage_icon.png">
             <canvas id="pdfview"></canvas>
@@ -62,13 +62,13 @@
         </div>
 
         <span id="partssideimg" onclick="openPartsNav()"><img src="img/UI/icon_pullout_parts.png"></span>
-		
+
 		<div id="sidecontrolnav" class="controlsidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeControlNav()">&times;</a>
 
             <a href="#" id="sidePresentationLink"><img src="img/UI/full_screen_button.png" alt="Show Fullscreen" id="sidepresentationbutton"></a>
             <a href="#" id="sideDownloadLink" download><img src="img/UI/download_pdf_button.png" alt="Download PDF" id="sidedownloadbutton"></a>
-            
+
         </div>
 
         <span id="controlsideimg" onclick="openControlNav()"><img src="img/UI/icon_pullout_pdfcontrol.png"></span>

@@ -204,7 +204,7 @@ header {
 
 #wrapper {
 	
-	width: 45%; 
+	width: 75%; 
 	margin: 0 auto;
 	
 }
@@ -373,6 +373,48 @@ header {
 	text-align: center;
 	font-family: 'libre_baskervilleregular';
 	width: 70%;
+	
+}
+
+#resumename {
+	
+	font-family: 'libre_baskervillebold';
+	font-size: 150%;
+	margin-bottom: 25px;
+	
+	
+}
+
+#resumetext{
+	
+	font-size: 125%;
+	line-height: 1.25em;
+	text-align: center;
+	
+}
+
+#resumetext p {
+	
+	margin-bottom: 15px;
+	
+}
+
+#resumetext b {
+	
+	font-family: 'libre_baskervillebold';
+	
+}
+
+#resumetext ul {
+	
+	width: 50%;
+	margin-left: 25%;
+	
+}
+
+#resumetext ul li {
+	
+	margin-bottom: 10px;
 	
 }
 
@@ -815,7 +857,7 @@ footer {
 	
 	/* The side navigation menu */
 	.mainsidenav {
-		height: 50%;
+		height: 60%;
 		/* 100% Full-height */
 		width: 0;
 		/* 0 width - change this with JavaScript */

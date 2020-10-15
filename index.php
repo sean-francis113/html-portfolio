@@ -38,7 +38,73 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-gameDesign.php";
             $title = "Game Design - Sean Francis";
-            $css = "index.css";
+            
+            
+        }
+        
+    }
+	
+	/*
+        Opening Programming Page
+    */
+    if($_GET["page"] == "programming")
+    {
+        
+        $useLightbox = "false";
+        
+        if($_GET["type"] == "index")
+        {
+            
+            $phpPage = "php/pages/page-programming.php";
+            $title = "Programming - Sean Francis";
+            
+            
+        }
+        
+    }
+	
+	/*
+        Opening Chronicler Page
+    */
+    if($_GET["page"] == "chronicler")
+    {
+        
+        $useLightbox = "false";
+		$document = "chronicler";
+		$documentName = "The Chronicler";
+		$documentTag = "A Discord Bot That Records RPGs.";
+		$partPageList = [1];
+		$parts = count($partPageList);
+		$partListNum = 1;
+        
+        if($_GET["type"] == "index")
+        {
+            
+            $phpPage = "php/pages/page-chronicler.php";
+            $title = "The Chronicler - Sean Francis";
+            
+            
+            
+        }
+        else if($_GET["type"] == "pdf")
+        {
+            
+			$needPartLinkScripts = true;
+            $phpPage = "php/pages/page-PDFViewer.php";
+            $title = "The Chronicler PDF - Sean Francis";
+            
+            $needPDFScripts = "true";
+            
+            
+        }
+        else if($_GET["type"] == "html")
+        {
+            
+			$needPartLinkScripts = true;
+            $phpPage = "php/pages/page-HTMLViewer.php";
+            $title = "The Chronicler HTML - Sean Francis";
+            
+            
             
         }
         
@@ -63,7 +129,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-bossChase.php";
             $title = "Boss Chase - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -73,7 +139,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "Boss Chase PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
             
             
@@ -84,7 +150,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-HTMLViewer.php";
             $title = "Boss Chase HTML - Sean Francis";
-            $css = "html.css";
+            
             
             
         }
@@ -110,7 +176,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-castleEscape.php";
             $title = "Castle Escape - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -120,7 +186,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "Castle Escape PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
             
             
@@ -131,7 +197,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-HTMLViewer.php";
             $title = "Castle Escape HTML - Sean Francis";
-            $css = "html.css";
+            
             
             
         }
@@ -151,7 +217,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-writtenWorks.php";
             $title = "Written Works - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -177,7 +243,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-augustFires.php";
             $title = "August Fires - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -187,7 +253,7 @@ if(isset($_GET["page"]))
             $needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "August Fires PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
             
         }
@@ -197,7 +263,7 @@ if(isset($_GET["page"]))
             $needPartLinkScripts = true;
             $phpPage = "php/pages/page-HTMLViewer.php";
             $title = "August Fires HTML - Sean Francis";
-            $css = "html.css";
+            
             
         }
         
@@ -222,7 +288,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-death.php";
             $title = "Death - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -232,7 +298,7 @@ if(isset($_GET["page"]))
             $needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "Death PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
             $partListNum = 1;
             
@@ -244,7 +310,7 @@ if(isset($_GET["page"]))
             $needPartLinkScripts = true;
             $phpPage = "php/pages/page-HTMLViewer.php";
             $title = "Death HTML - Sean Francis";
-            $css = "html.css";
+            
             $partListNum = 1;
             
             
@@ -271,7 +337,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-dimensionalChains.php";
             $title = "Dimensional Chains - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -281,7 +347,7 @@ if(isset($_GET["page"]))
             $needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "Dimensional Chains PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
             $partListNum = 1;
             
@@ -293,7 +359,7 @@ if(isset($_GET["page"]))
             $needPartLinkScripts = true;
             $phpPage = "php/pages/page-HTMLViewer.php";
             $title = "Dimensioal Chains HTML - Sean Francis";
-            $css = "html.css";
+            
             $partListNum = 1;
             
             
@@ -314,7 +380,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-worldDesign.php";
             $title = "World and Character Design - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -337,7 +403,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-worldHunted.php";
             $title = "World of Hunted - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -347,7 +413,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "World of Hunted PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true"; 
 			$partPageList = [1]; 
 			$parts = count($partPageList);
@@ -373,7 +439,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-leahKaitlyn.php";
             $title = "Leah Kaitlyn - Sean Francis";
-            $css = "index.css";            
+                        
             
         }
         else if($_GET["type"] == "pdf")
@@ -382,7 +448,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "Leah Kaitlyn PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
 			$partPageList = [1]; 
 			$parts = count($partPageList);
@@ -408,7 +474,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-davidParker.php";
             $title = "David Parker - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -418,13 +484,85 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "David Parker PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
 			$partPageList = [1]; 
 			$parts = count($partPageList);
             $partListNum = 1;
             
         }
+        
+    }
+	
+	if($_GET["page"] == "pffaeMantles")
+    {
+        
+        $useLightbox = "false";
+        $document = "pffaeMantles";
+        $documentName = "Pathfinder FATE Accelerated Custom Mantles";
+        $documentTag = "Custom Mantles for PFFAE based on the Pathfinder classes.";
+		$partPageList = [1];
+		$parts = count($partPageList);
+        $partListNum = 1;
+        
+		if($_GET["type"] == "pdf")
+        {
+            
+            $needPartLinkScripts = true;
+            $phpPage = "php/pages/page-PDFViewer.php";
+            $title = "PFFAE Mantles PDF - Sean Francis";
+            $needPDFScripts = "true";
+            
+        }
+        
+        
+    }
+	
+	if($_GET["page"] == "dfaMantles")
+    {
+        
+        $useLightbox = "false";
+        $document = "dfaMantles";
+        $documentName = "Dresden Files Accelerated Custom Mantles";
+        $documentTag = "Custom Mantles for DFA for both players and GMs.";
+		$partPageList = [1];
+		$parts = count($partPageList);
+        $partListNum = 1;
+        
+		if($_GET["type"] == "pdf")
+        {
+            
+            $needPartLinkScripts = true;
+            $phpPage = "php/pages/page-PDFViewer.php";
+            $title = "DFA Mantles PDF - Sean Francis";
+            $needPDFScripts = "true";
+            
+        }
+        
+        
+    }
+	
+	if($_GET["page"] == "gallys")
+    {
+        
+        $useLightbox = "false";
+        $document = "gallys";
+        $documentName = "Gallys, a World Shattered";
+        $documentTag = "A set of homebrew classes, archetypes, equipment and other rules for PF2E.";
+		$partPageList = [1];
+		$parts = count($partPageList);
+        $partListNum = 1;
+        
+		if($_GET["type"] == "pdf")
+        {
+            
+            $needPartLinkScripts = true;
+            $phpPage = "php/pages/page-PDFViewer.php";
+            $title = "Gallys PDF - Sean Francis";
+            $needPDFScripts = "true";
+            
+        }
+        
         
     }
     
@@ -439,59 +577,76 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-digitalPaintings.php";
             $title = "Digital Paintings - Sean Francis";
-            $css = "index.css";
+            
             
         }
         else if($_GET["type"] == "html")
         {
             
             $phpPage = "php/pages/page-digitalPaintingHTML.php";
-            $css = "html.css";
+            
             $forceWidth = "true";
             
             if($_GET["image"] == "rpgIcons"){
                 
                 $image = "img/digital_paintings/francis_".$_GET["image"]."_fullSizeWithBG.jpeg";
-                    
-                if($_GET["image"] == "alienpet")
-                {
-                        
-                    $imageTag = "Alien Pet: Quel Image";
-                    $imageName = "Alien Pet: Quel";
-                        
-                }
-                else if($_GET["image"] == "selfportrait")
-                {
-                    
-                    $imageTag = "Self Portrait Image";
-                    $imageName = "Self Portrait";
-                    
-                }
-                else if($_GET["image"] == "stilllife")
-                {
-                    
-                    $imageTag = "Still Life Image";
-                    $imageName = "Still Life";
-                    
-                }
-                else if($_GET["image"] == "theft")
-                {
-                    
-                    $imageTag = "Theft Image";
-                    $imageName = "Theft";
-                    
-                }
-            
-            }
-            else
-            {
-                
-                $image = "img/digital_paintings/francis_".$_GET["image"]."_fullSize.jpeg";
-                $imageTag = "RPG Icons Image";
+				$imageTag = "RPG Icons Image";
                 $imageName = "RPG Icons";
-
+			}
+                    
+            if($_GET["image"] == "alienpet")
+            {
+                $image = "img/digital_paintings/francis_".$_GET["image"]."_fullSize.jpeg";    
+                $imageTag = "Alien Pet: Quel Image";
+                $imageName = "Alien Pet: Quel";
+                    
             }
+            else if($_GET["image"] == "selfportrait")
+            {
+                $image = "img/digital_paintings/francis_".$_GET["image"]."_fullSize.jpeg";
+                $imageTag = "Self Portrait Image";
+                $imageName = "Self Portrait";
+                
+            }
+            else if($_GET["image"] == "stilllife")
+            {
+                $image = "img/digital_paintings/francis_".$_GET["image"]."_fullSize.jpeg";
+                $imageTag = "Still Life Image";
+                $imageName = "Still Life";
+                
+            }
+            else if($_GET["image"] == "theft")
+            {
+                $image = "img/digital_paintings/francis_".$_GET["image"]."_fullSize.jpeg";
+                $imageTag = "Theft Image";
+                $imageName = "Theft";
+                
+            }
+			else if($_GET["image"] == "dresdenvick")
+			{
+				$image = "img/digital_paintings/dresden_v_ick_fullSize.png";
+				$imageTag = "Dresden Vs. Ick Image";
+				$imageName = "Dresden Vs. Ick";
+			}
                         
+        }
+        
+    }
+	
+	/*
+        Opening RPG Designs Page
+    */
+    if($_GET["page"] == "rpg_design")
+    {
+        
+        $useLightbox = "false";
+        
+        if($_GET["type"] == "index")
+        {
+            
+            $phpPage = "php/pages/page-rpgDesign.php";
+            $title = "RPG Designs - Sean Francis";
+            
         }
         
     }
@@ -509,7 +664,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-about.php";
             $title = "About - Sean Francis";
-            $css = "index.css";
+            
             
         }
         
@@ -534,7 +689,7 @@ if(isset($_GET["page"]))
             
             $phpPage = "php/pages/page-resume.php";
             $title = "Resume - Sean Francis";
-            $css = "index.css";
+            
             
             
         }
@@ -544,7 +699,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-PDFViewer.php";
             $title = "Resume PDF - Sean Francis";
-            $css = "pdf.css";
+            
             $needPDFScripts = "true";
             
             
@@ -555,7 +710,7 @@ if(isset($_GET["page"]))
 			$needPartLinkScripts = true;
             $phpPage = "php/pages/page-ResumeHTML.php";
             $title = "Resume HTML - Sean Francis";
-            $css = "index.css";
+            
             $forceWidth = "true";
             
             
@@ -576,6 +731,8 @@ include($phpPage);
 include("php/header_footer/footer.php");
 
 include("php/scripts/scriptNav.php");
+
+include("php/scripts/dynamicAdjust.php");
 
 /*
     If We Need to Force the Main Area's Width

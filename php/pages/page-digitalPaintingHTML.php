@@ -1,4 +1,4 @@
-        <div id="worksarea">
+        <div id="worksarea" class="dfs">
             <h1 id="pageTitle"><? php echo $imageName ?></h1>
 
             <div class="summary">
