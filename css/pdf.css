@@ -205,7 +205,7 @@ header {
 
 #wrapper {
 	
-	width: 45%; 
+	width: 75%; 
 	margin: 0 auto;
 	
 }
@@ -881,7 +881,7 @@ footer {
 	
 	/* The side navigation menu */
 	.mainsidenav {
-		height: 50%;
+		height: 60%;
 		/* 100% Full-height */
 		width: 0;
 		/* 0 width - change this with JavaScript */

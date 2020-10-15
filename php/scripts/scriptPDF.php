@@ -20,11 +20,8 @@
 		}
 		
 		?>
-		
-		if(doc != "bossChase" && doc != "castleEscape" && doc != "resume"){
-        	pdfURL = "pdf/" + doc + "_libre.pdf";
-        }
-		else if(doc === "bossChase" || doc === "castleEscape")
+
+		if(doc === "bossChase" || doc === "castleEscape")
 		{
 			pdfURL	= "pdf/" + doc + "_" + gddType + ".pdf";		
 		}
@@ -32,6 +29,25 @@
 		{
 			pdfURL = "pdf/francis_resume.pdf";
 		}
+		else if(doc === "chronicler")
+		{
+			pdfURL = "pdf/chronicler_commands_05-15-2019.pdf";
+		}
+		else if(doc === "pffaeMantles")
+		{
+			pdfURL = "pdf/pffae_mantles.pdf";
+		}
+		else if(doc === "dfaMantles")
+		{
+			pdfURL = "pdf/dfa_mantles.pdf";
+		}
+		else if(doc === "gallys")
+		{
+			pdfURL = "pdf/gallys_design.pdf";			
+		}
+		else{
+        	pdfURL = "pdf/" + doc + "_libre.pdf";
+        }
 		
 		var pdfdoc = null;
         var pageNum = <?php echo($partPageList[$_GET["partNum"] - 1]) ?>;

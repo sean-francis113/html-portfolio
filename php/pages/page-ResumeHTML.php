@@ -1,4 +1,4 @@
-    <div id="worksarea">
+    <div id="worksarea" class="dfs">
             <div id="partcontent">
                 <div id="resumetext">
                     <h1 id="resumename">Sean Francis</h1>
@@ -22,38 +22,34 @@
 
                         <p>Interned under Rivalcast Media Writing and responsible for developing an ongoing story series, learned formatting through their web publisher, and worked on promotional campaigns. Also assisted with the editing and coaching of other writers&#39; work and read manuscripts and proofread pieces for publication.</p><br><br>
 
+						<h2>FOTA @ STARBASE VICTORY &#45; Programming Intern</h2>
+
+                        <i>6/13/2018 &#45; 8/2/2018</i><br><br>
+
+                        <p>Interned with Starbase Victory to assist with teaching elementary and middle school students basic concepts of programming. Used Littlebits and coding to assist the students with their business signs which were placed in Downtown Portsmouth.
+</p><br><br>
+
+						<h2>PUDDLE JUMP GAMES @ VIRGINIA SERIOUS GAMES INSTITUTE &#45; Programming Intern</h2>
+
+                        <i>6/4/2018 &#45; PRESENT</i><br><br>
+
+                        <p>Interned with Puddle Jump Games, a start-up company to program their debut project. Worked in the Unity Engine to program prototypes and design systems that will be used in the final project.</p><br><br>
+
                         <h1>PROJECTS</h1>
-                        
+
                         <i><u>CASTLE ESCAPE &#45; GAME</i></u><br>
 
                         <i>www.seanmfrancis.net/game_design</i><br><br>
 
                         <p><i>&quot;The Princess was kidnapped by the Monster King. And the hero sent to save her... won&#39;t be able to do much. Gaining a once in a lifetime opportunity, the Princess has killed the Monster King and stole his weapons. Now armed, she must battle her way down the castle&#39;s floors in order to escape the henchmen who are not going to sit idle. React fast and outsmart your enemies as the Princess in order to make your own happy ending. But the longer you take, the less chance you have of leaving before you are overwhelmed by the guards.&quot;</i></p><br>
 
-                        <i><u>AUGUST FIRES &#45; SHORT STORY</i></u><br>
-
-                        <i>www.seanmfrancis.net/written_works/augustfires</i><br><br>
-
-                        <p><i>&quot;The world has survived the Second World War with the help of the Inquisition. Yet, only a short five years later, the world would be shaken again. Magi attack the Virginian Inquisition base and Matthew Graver is forced into the middle of the attack. He must help defend the base at all cost.&quot;</i></p><br>
-                    
-
-                        <i><u>THE WORLD OF HUNTED &#45; WORLD DESIGN</i></u>
-
-                        <i>www.seanmfrancis.net/world_char_design/huntedworld</i><br><br>
-
-                        <p><i>&quot;Magic has been in the world since its birth. It is a science, a part of biology and anatomy as blood and sinew. As society has evolved into the modern world new laws have been set into place. Yet, there are those that are fighting against the new system. Now, the Inquisition and Black Cults fight for supremacy while citizens fear for the future.&quot;</i></p><br><br>
-
                         <h1>EDUCATION</h1>
 
-                        <ul>
-                            <li>George Mason University &#45; B.F.A</li>
-                        </ul>
+                        George Mason University &#45; B.F.A
                         <br><br>
 
                         <h1>SPECIAL AWARDS AND RECOGNITIONS</h1>
-                        <ul>
-                            <li>Eagle Scout, May 2011</li>
-                        </ul>
+                        Eagle Scout, May 2011
                         <br><br>
 
                         <h1>REFERENCES</h1>

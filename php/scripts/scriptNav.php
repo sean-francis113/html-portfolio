@@ -1,9 +1,9 @@
     <script>
         
         function openMainNav() {
-            document.getElementById("sidemainnav").style.width = "50%";
-            document.getElementById("sidemainnav").style.borderRadius = "50px";
-            document.getElementById("sidemainnav").style.borderWidth = "5px";
+            document.getElementById("sidemainnav").style.width = "75%";
+            document.getElementById("sidemainnav").style.borderRadius = "25px";
+            document.getElementById("sidemainnav").style.borderWidth = "2.5px";
             document.getElementById("mainsideimg").style.display = "none";
         }
 
@@ -16,9 +16,9 @@
         
         /* Set the width of the side navigation to 250px */
         function openPartsNav() {
-            document.getElementById("sidesubnav").style.width = "50%";
-            document.getElementById("sidesubnav").style.borderRadius = "50px";
-            document.getElementById("sidesubnav").style.borderWidth = "5px";
+            document.getElementById("sidesubnav").style.width = "75%";
+            document.getElementById("sidesubnav").style.borderRadius = "25px";
+            document.getElementById("sidesubnav").style.borderWidth = "2.5px";
             document.getElementById("partssideimg").style.display = "none";
 
             document.getElementById("sidemainnav").style.width = "0";

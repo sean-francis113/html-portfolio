@@ -1,9 +1,8 @@
             <div class="workInfo">
-                <img class="coverIMG" src="img/written_works_covers/death_thumb.png" alt="Death Cover">
-                <p class="label">Death</p>
-                <p class="summary">&quot;There have been many artifacts created in the world over its long lifespan but none as frightening as Death&#39;s Claw. The slab of obsidian is a dangerous weapon that can kill with a single name in blood. On the quest to find its current owner, Normie and Landon have found the artifact with their names on them, but not the owner. Now, with a deadline, they must find the owner and stop him.&quot;</p>
-                <a href="index.php?page=death&type=pdf&partNum=1" class="embeddedLink">View Embedded PDF</a>
-                <p class="download">Full Screen PDF: <a href="../../pdf/death_libre.pdf" class="link">PDF</a></p>
-                <a href="index.php?page=death&type=html&partNum=1" class="link">View In Webpage</a>
-                <p class="download">Download PDF: <a href="../pdf/death_libre.pdf" class="link" download>PDF</a></span></p>
+                <img class="coverIMG" src="img/written_works_covers/tfs_wotr_thumb.png" alt="TFS: WotR Cover">
+                <p class="label">The Fireside Tales: Wrath of the Righteous, Book One</p>
+                <p class="summary">This is the second story I wrote for Rivalcast Media, and was meant to be a multi-book series. Unfortunately, the other books did not come to fruition, but book one is complete.</p>
+                <!--<a href="index.php?page=death&type=pdf&partNum=1" class="embeddedLink">View Embedded PDF</a>-->
+                <p class="download">Full Screen PDF: <a href="../../pdf/tfs_wotr.pdf" class="link">PDF</a></p>
+                <p class="download">Download PDF: <a href="../pdf/tfs_wotr.pdf" class="link" download>PDF</a></span></p>
             </div>

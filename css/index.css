@@ -167,10 +167,10 @@ table {
 */
 
 /* Turn off side menu */
-#sidemainnav, #mainsideimg {
-	
-	display: none;
-	
+#sidemainnav, #mainsideimg, #sidesubnav,
+#partssideimg, #mainsideimg img, #partssideimg img,
+#sidecontrolnav, #controlsideimg {
+    display: none;
 }
 
 .libreFont {
@@ -202,7 +202,7 @@ body {
 	Rest of Document
 */
  
-header {
+header.dfs {
 	
 	padding-bottom: 5%;
 	padding-top: 5%;
@@ -211,34 +211,42 @@ header {
 
 #wrapper {
 	
-	width: 45%; 
-	margin: 0 auto;
+	margin-left: 10em;
+    margin-right: 10em;
 	
 }
 
 #logo {
 	
 	float: left;
-	width: 165px;
+	width: 6em;
 	margin-right: 15px;
 	
+}
+
+#logo img{
+    width: 6em;
 }
 
 #name {
 	
 	float: left;
-	width: 23%;
-	font-size: 200%;
+	width: 15em;
+	font-size: 1.75em;
 	font-family: 'libre_baskervillebold';
 	
 }
 
 #tagline {
 	
-	width: 40%;
+	width: 20em;
 	margin-top: 50px;
-	font-size: 150%;
+	font-size: 1.25em;
 	
+}
+
+#socialbuttons{
+    margin-bottom: 20px;
 }
 
 #socialbuttons ul li {
@@ -248,38 +256,42 @@ header {
 	
 }
 
-#mainnav {
-	
-	float: left;
-	background-color: #82a182;
-	border-radius: 50px;
-	border: 5px solid #435943;
-	padding-top: 15px;
-	padding-bottom: 25px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	font-size: 175%;
-	width: 97%;
-	font-family: 'libre_baskervilleregular';
-	
+#socialbuttons img {
+    width: 3em;
+}
+
+#nav_space{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#mainnav, #subnav, #controlpanel, #sidepartsnav, #sidecontrolnav {
+    float: left;
+    width: 97%;
+    background-color: #82a182;
+    border-radius: 50px;
+    border: 5px solid #435943;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'libre_baskervilleregular';
+    text-align: center
 }
 
 #mainnav ul {
-	
-	padding-left: 2.5%;
-	margin-top: 15px;
-	padding-bottom: 15px;
-	
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-flex;
+    font-size: 1.5em;
 }
 
 #mainnav ul li {
-	
-	padding-left: 1%;
-	padding-right: 1%;
-	float: left;
-	
+    padding-left: 0.5em;
+    padding-right: 0.25em;
+    float: left;
 }
 
 #mainnav ul li a {
@@ -290,7 +302,61 @@ header {
 	
 }
 
-#worksarea {
+#sidepartsnav, #sidecontrolnav {
+    display: none;
+}
+
+#subnav {
+    float: right;
+    width: 17%;
+    font-size: 100%;
+}
+
+#storyname, #storytag {
+    text-align: center;
+}
+
+#storyname, #storytag, #sidestoryname, #sidestorytag {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+    #storyname h1, #sidestoryname h1 {
+        font-size: 150%;
+        font-family: 'libre_baskervillebold';
+    }
+
+    #storytag h2, #sidestorytag h2 {
+        font-size: 100%;
+        font-family: 'libre_baskervilleitalic';
+    }
+
+.partLink {
+    margin-bottom: 15px;
+}
+
+    .partLink a, #partprev a, #partnext a,
+    #sidepartprev a, #sidepartnext a {
+        text-decoration: none;
+        color: black;
+        font-size: 115%;
+    }
+
+#partprev, #partnext, #sidepartprev, #sidepartnext {
+    float: right;
+    margin-bottom: 15px;
+}
+
+#partnext, #sidepartnext {
+    margin: 0;
+}
+
+#topLink, #topLinkSide {
+    text-decoration: none;
+    color: black;
+}
+
+#worksarea, #pdfarea, #htmlarea {
 	
 	float: left;
 	background-color: #82a182;
@@ -301,16 +367,55 @@ header {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-bottom: 20px;
-	font-size: 100%;
+	font-size: 0.75em;
 	text-align: center;
 	font-family: 'libre_baskervilleregular';
 	
 }
 
+#pdfarea, #htmlarea{
+    width: 70%;
+}
+
+#previous {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+#next {
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+#previous, #next {
+    margin-bottom: 48%;
+}
+
+#pdfview {
+    width: 70%;
+}
+
+#page_display {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40%;
+    background-color: #b4cdb4;
+    border-radius: 50px;
+    border: 5px solid #435943;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'libre_baskervilleregular';
+    width: 15%;
+}
+
 #pageTitle {
 	
 	font-family: 'libre_baskervillebold';
-	font-size: 250%;
+	font-size: 2.5em;
 	
 }
 
@@ -319,6 +424,11 @@ header {
 	width: 85%;
 	margin-left: 7.5%;
 	
+}
+
+#controlpanel, #presentationcontrol {
+    float: right;
+    width: 17%;
 }
 
 .coverIMG {
@@ -332,7 +442,7 @@ header {
 .label {
 	
 	font-family: 'libre_baskervillebold';
-	font-size: 150%;
+	font-size: 1.25em;
 	margin-bottom: 15px;
 	margin-top: 15px;
 	
@@ -341,7 +451,7 @@ header {
 .summary {
 	
 	font-family: 'libre_baskervilleitalic';
-	font-size: 125%;
+	font-size: 1em;
 	line-height: 1.5em;
 	margin-bottom: 15px;
 	width: 85%;
@@ -360,7 +470,7 @@ header {
 	
 	margin-top: 15px;
 	margin-bottom: 15px;
-	font-size: 125%;
+	font-size: 1em;
 	
 }
 
@@ -373,11 +483,21 @@ header {
 	
 }
 
+#presentationbutton, #downloadbutton, #sidepresentationbutton, #sidedownloadbutton {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#presentationbutton, #sidepresentationbutton {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .download {
 	
 	margin-top: 25px;
 	margin-bottom: 25px;
-	font-size: 125%;
+	font-size: 1em;
 	
 }
 
@@ -386,7 +506,7 @@ header {
 	font-family: 'libre_baskervilleitalic';
 	margin-left: 10px;
 	margin-right: 10px;
-	font-size: 125%;
+	font-size: 1em;
 	
 }
 
@@ -402,8 +522,8 @@ footer {
 	
 	margin-top: 20px;
 	margin-bottom: 10px;
-	margin-left: 28%;
-	font-size: 125%;
+	margin-left: 8em;
+	font-size: 1.25em;
 	
 }
 
@@ -417,7 +537,7 @@ footer {
 
 #smallprint {
 	
-	font-size: 75%;
+	font-size: 0.75em;
 	padding-bottom: 25px;
 	text-align: center;
 	line-height: 1.25em;
@@ -498,68 +618,19 @@ footer {
 	display: block;
 }
 
-@media screen and (max-width: 1720px)
-{
-	
-	#wrapper {
-		
-		width: 90%;
-		
-	}
-	
-	.coverIMG {
-		
-		width: 40%;
-		
-	}
-	
-	.footersection {
-		
-		margin-left: 15%;
-		
-	}
-	
-}
+@media screen and (max-width: 1500px){
+    #wrapper{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
 
-@media screen and (max-width: 1680px) {
-	
-	#mainnav {
-		
-		font-size: 150%;
-		
-	}
-	
-}
+    #mainnav ul{
+        font-size: 1.25em;
+    }
 
-@media screen and (max-width: 1400px) {
-	
-	#mainnav {
-		
-		font-size: 130%;
-		
-	}    
-	
-}
-
-@media screen and (max-width: 1280px) {
-		
-	#mainnav {
-		
-		font-size: 125%;
-		
-	}
-	  
-}
-
-@media screen and (max-width: 1190px)
-{
-	
-	#mainnav {
-		
-		font-size: 115%;
-		
-	}
-	
+    .footersection{
+        margin-left: 5em;
+    }
 }
 
 @media screen and (max-width: 875px)
@@ -570,16 +641,21 @@ footer {
 		display: none;
 		
 	}
+
+    #wrapper{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
 	
 	.label {
 		
-		font-size: 125%;
+		font-size: 1.25em;
 		
 	}
 	
 	.summary, .gameCredits li, .download, .link, .embeddedLink {
 		
-		font-size: 100%;
+		font-size: 1em;
 		
 	}
 	
@@ -590,51 +666,79 @@ footer {
 	}
 	
 	/* Turn on side menu image */
-	#mainsideimg, #sidemainnav{
-	
-		display: block;
-		position: fixed;
-		left: 0;
-		top: 5%;
-	
-	}
+    #partssideimg, #mainsideimg, #sidemainnav, #sidecontrolnav, #sidepartsnav {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 5%;
+    }
 	
 	#mainsideimg img{
 		
-		width: 40%;
+		width: 25%;
+        display: block;
 		
 	}
+
+    #partssideimg {
+        display: block;
+        position: fixed;
+        clear: both;
+        top: 5%;
+    }
+
+    #sidepartsnav {
+        display: block;
+        width: 0;
+    }
+
+    #partssideimg img, #sidecontrolnav img {
+        display: block;
+        position: fixed;
+        left: 90%;
+        width: 9.5%;
+    }
+
+    #sidecontrolnav {
+        top: 50%;
+    }
 	
 	#sidelogo {
 		
-		width: 164px;
+		width: 35%;
 		float: left;
-		
+        margin-right: 2em;
 		
 	}
 	
+    #sidelogo img{
+        width: 100%;
+    }
+
 	#sidename {
 		
 		float: left;
-		width: 50%;
+		width: 7em;
 		font-family: 'libre_baskervillebold';
-		font-size: 150%;
+		font-size: 1.5em;
 		margin-top: 15px;
 		
 	}
 	
 	#sidetagline {
 		
-		width: 65%;
-		font-size: 125%;
-		margin-top: 50px;
+		width: 7em;
+        float: left;
+		font-size: 1.25em;
+        margin-top: 15px;
 		
 	}
 	
 	#sidesocialbuttons {
 		
-		margin-top: 75px;
+		margin-top: 25px;
 		margin-bottom: 25px;
+        float: left;
 		
 	}
 	
@@ -644,11 +748,15 @@ footer {
 		margin-right: 25px;
 		
 	}
+
+    #pullednav {
+        float: left;
+    }
 	
 	#pullednav ul li{
 		
 		margin-bottom: 15px;
-		font-size: 175%;
+		font-size: 1.75em;
 		
 	}
 	
@@ -659,7 +767,7 @@ footer {
 		
 	}
 	
-	#sidelogo, #sidetagline, #sidesocialbuttons, #pullednav {
+	#sidelogo, #sidesocialbuttons, #pullednav {
 		
 		margin-left: 25px;
 		
@@ -674,7 +782,7 @@ footer {
 	
 	/* The side navigation menu */
 	.mainsidenav {
-		height: 50%;
+		height: 60%;
 		/* 100% Full-height */
 		width: 0;
 		/* 0 width - change this with JavaScript */
@@ -710,17 +818,6 @@ footer {
 		right: 25px;
 		font-size: 36px;
 		margin-left: 50px;
-	}
-	
-}
-
-@media screen and (max-width: 800px)
-{
-	
-	#mainsideimg img{
-		
-		width: 25%;
-		
 	}
 	
 }
